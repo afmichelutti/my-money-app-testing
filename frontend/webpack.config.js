@@ -26,6 +26,8 @@ module.exports = {
             'window.jQuery': 'jquery'
         }),
         new ExtractTextPlugin('app.css')
+        //,new webpack.optimize.UglifyJsPlugin()
+        //,new webpack.DefinePlugin({'process.env.NODE_ENV': JSON.stringify('production')
     ],
     module: {
         loaders: [{
